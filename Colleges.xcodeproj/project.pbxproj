@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		83F669C3266B312B00D088DF /* CollegesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F669C2266B312B00D088DF /* CollegesApp.swift */; };
-		83F669C5266B312B00D088DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F669C4266B312B00D088DF /* ContentView.swift */; };
+		83F669C5266B312B00D088DF /* CollegesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F669C4266B312B00D088DF /* CollegesView.swift */; };
 		83F669C7266B312C00D088DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F669C6266B312C00D088DF /* Assets.xcassets */; };
 		83F669CA266B312C00D088DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F669C9266B312C00D088DF /* Preview Assets.xcassets */; };
+		83F669D2266B4F3E00D088DF /* CollegeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F669D1266B4F3E00D088DF /* CollegeImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		83F669BF266B312B00D088DF /* Colleges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colleges.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F669C2266B312B00D088DF /* CollegesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegesApp.swift; sourceTree = "<group>"; };
-		83F669C4266B312B00D088DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		83F669C4266B312B00D088DF /* CollegesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegesView.swift; sourceTree = "<group>"; };
 		83F669C6266B312C00D088DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83F669C9266B312C00D088DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		83F669CB266B312C00D088DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F669D1266B4F3E00D088DF /* CollegeImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				83F669C2266B312B00D088DF /* CollegesApp.swift */,
-				83F669C4266B312B00D088DF /* ContentView.swift */,
+				83F669D3266B4F5100D088DF /* View */,
 				83F669C6266B312C00D088DF /* Assets.xcassets */,
 				83F669CB266B312C00D088DF /* Info.plist */,
 				83F669C8266B312C00D088DF /* Preview Content */,
@@ -67,6 +69,15 @@
 				83F669C9266B312C00D088DF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		83F669D3266B4F5100D088DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				83F669C4266B312B00D088DF /* CollegesView.swift */,
+				83F669D1266B4F3E00D088DF /* CollegeImageView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83F669C5266B312B00D088DF /* ContentView.swift in Sources */,
+				83F669D2266B4F3E00D088DF /* CollegeImageView.swift in Sources */,
+				83F669C5266B312B00D088DF /* CollegesView.swift in Sources */,
 				83F669C3266B312B00D088DF /* CollegesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
