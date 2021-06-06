@@ -1,0 +1,88 @@
+[
+    {
+        "name": "Seneca College",
+        
+        "id": 1,
+        
+        "city": "Toronto, Ontario",
+        
+        "campus": "King, Markham, Newnham, Peterborough, Seneca International Academy, York, Yorkgate, Seneca",
+        
+        "description": "Join us as we take on the great challenges of our time – rebuilding the economy, equity and sustainability – while navigating through the pandemic safely. We’re a renewed Seneca, delivering great polytechnic education that combines rigorous academics with practical training across a huge range of careers and professions. From health care to technology, business to creative arts, community services to arts and sciences, we’ll help you get ready to make your mark in the world. We’re proud of our expert faculty, excellent staff and outstanding facilities. We have deep connections to industry and offer thousands of co-op and work placements to get our graduates job-ready. Full-time or part-time, in-person or online, choose the options that suit you. Our sophisticated digital infrastructure has allowed us to adapt to the more virtual world seamlessly. If you’re up for a challenge, welcome to Seneca. Now is your time.",
+        
+        "link": "https://www.senecacollege.ca/home.html",
+        
+        "intake": "January, May, September",
+        
+        "coordinates": {
+            "longitude":  -79.49847324551514,
+            "latitude":  43.7720018877197
+        },
+        
+        "imageName": "seneca"
+    },
+    {
+        "name": "Humber College",
+        
+        "id": 2,
+        
+        "city": "Toronto, Ontario",
+        
+        "campus": "North, Lakeshore, Orangeville",
+        
+        "description": "Humber emphasizes hands-on, career-focused learning. We offer a broad range of credentials including bachelor's degrees, diplomas, certificates and Ontario graduate certificates — and will help you chart the best path towards your goals.",
+        
+        "link": "https://humber.ca",
+        
+        "intake": "January, May, September",
+        
+        "coordinates": {
+            "longitude": -79.60498368851914,
+            "latitude": 43.73001033217186
+        },
+        
+        "imageName": "humber"
+    },
+    {
+        "name": "George Brown College",
+        
+        "id": 3,
+        
+        "city": "Toronto, Ontario",
+        
+        "campus": "Casa Loma, St. James, Waterfront",
+        
+        "description": "Toronto is home to many major industries in Canada and one of the most important economic hubs in North America. As such, the city becomes a living lab for our students. We have three main campuses and several other locations that place students in the heart of downtown Toronto -- St. James Campus, Casa Loma Campus and Waterfront Campus. We’ve taken advantage of our location to give our students an edge in the job market. We partner with companies and organizations that play a role in the academic life of our students by advising course curriculum, providing field education and employment. By helping us develop curriculum, these companies nurture our students to meet industry needs and gain skills that are highly sought after in the current job market. There are so many more reasons to choose George Brown College that you’ll find in the Why George Brown section",
+        
+        "link": "https://www.georgebrown.ca",
+        
+        "intake": "January, May, September",
+        
+        "coordinates": {
+            "longitude": -79.37022024273239,
+            "latitude": 43.65131137718513
+        },
+        "imageName": "georgeBrown"
+    },
+    {
+        "name": "Conestoga College",
+        
+        "id": 4,
+        
+        "city": "Kitchener, Ontario",
+        
+        "campus": "Brantford, Cambridge - Downtown, Cambridge - Fountain Street, Guelph, Kitchener - Doon, Kitchener - Downtown, Stratford, Waterloo",
+        
+        "description": "Conestoga is a leader in polytechnic education and one of Ontario's fastest growing colleges, delivering a full range of career-focused education, training and applied research programs to prepare students for success in the new knowledge economy and promote economic prosperity throughout our region and across Ontario. Our comprehensive range of programming meets the needs of a variety of learners, providing multiple entry points and established pathways to ensure that individuals across our community can access the education they need for their chosen careers. Articulation agreements with colleges and universities around the world provide our students with ready access to additional post-secondary opportunities. Labs equipped with the latest technology, project-based courses, field and clinical experiences, international exchange, applied research and co-op opportunities engage our students as they learn to connect theory, research and practice. Our focus on technology-enhanced learning through online and mobile technologies ensures that students are prepared to excel in our increasingly digital world. Conestoga’s commitment to student success includes a full range of support and career advising services available to students throughout their learning journey.",
+        
+        "link": "https://www.conestogac.on.ca",
+        
+        "intake": "January, May, September",
+        
+        "coordinates": {
+            "longitude": -80.40500410750735,
+            "latitude":43.38984178931411
+        },
+        "imageName": "conestoga"
+    }
+]

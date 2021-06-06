@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		830E0563266D937F00E5D3BB /* detailCollege.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830E0562266D937F00E5D3BB /* detailCollege.swift */; };
+		8349176B266C8A060032DA7E /* collegesData.json in Resources */ = {isa = PBXBuildFile; fileRef = 8349176A266C8A060032DA7E /* collegesData.json */; };
+		8349176D266C9AED0032DA7E /* College.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8349176C266C9AED0032DA7E /* College.swift */; };
+		8349176F266CB78F0032DA7E /* CollegeModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8349176E266CB78F0032DA7E /* CollegeModelData.swift */; };
+		83491773266CD85C0032DA7E /* CollegeRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83491772266CD85C0032DA7E /* CollegeRowView.swift */; };
+		83491775266CDD8B0032DA7E /* CollegesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83491774266CDD8B0032DA7E /* CollegesListView.swift */; };
 		83F669C3266B312B00D088DF /* CollegesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F669C2266B312B00D088DF /* CollegesApp.swift */; };
 		83F669C5266B312B00D088DF /* CollegesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F669C4266B312B00D088DF /* CollegesView.swift */; };
 		83F669C7266B312C00D088DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F669C6266B312C00D088DF /* Assets.xcassets */; };
 		83F669CA266B312C00D088DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F669C9266B312C00D088DF /* Preview Assets.xcassets */; };
 		83F669D2266B4F3E00D088DF /* CollegeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F669D1266B4F3E00D088DF /* CollegeImageView.swift */; };
+		83F669D5266B711500D088DF /* MapCollegeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F669D4266B711500D088DF /* MapCollegeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		830E0562266D937F00E5D3BB /* detailCollege.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailCollege.swift; sourceTree = "<group>"; };
+		8349176A266C8A060032DA7E /* collegesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = collegesData.json; sourceTree = "<group>"; };
+		8349176C266C9AED0032DA7E /* College.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = College.swift; sourceTree = "<group>"; };
+		8349176E266CB78F0032DA7E /* CollegeModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeModelData.swift; sourceTree = "<group>"; };
+		83491772266CD85C0032DA7E /* CollegeRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeRowView.swift; sourceTree = "<group>"; };
+		83491774266CDD8B0032DA7E /* CollegesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegesListView.swift; sourceTree = "<group>"; };
 		83F669BF266B312B00D088DF /* Colleges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colleges.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F669C2266B312B00D088DF /* CollegesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegesApp.swift; sourceTree = "<group>"; };
 		83F669C4266B312B00D088DF /* CollegesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegesView.swift; sourceTree = "<group>"; };
@@ -22,6 +35,7 @@
 		83F669C9266B312C00D088DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		83F669CB266B312C00D088DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83F669D1266B4F3E00D088DF /* CollegeImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeImageView.swift; sourceTree = "<group>"; };
+		83F669D4266B711500D088DF /* MapCollegeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCollegeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83491770266CBD930032DA7E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8349176A266C8A060032DA7E /* collegesData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		83491771266CBDA20032DA7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8349176C266C9AED0032DA7E /* College.swift */,
+				8349176E266CB78F0032DA7E /* CollegeModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		83F669B6266B312B00D088DF = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				83F669C2266B312B00D088DF /* CollegesApp.swift */,
+				83491771266CBDA20032DA7E /* Model */,
+				83491770266CBD930032DA7E /* Resources */,
 				83F669D3266B4F5100D088DF /* View */,
 				83F669C6266B312C00D088DF /* Assets.xcassets */,
 				83F669CB266B312C00D088DF /* Info.plist */,
@@ -75,7 +108,11 @@
 			isa = PBXGroup;
 			children = (
 				83F669C4266B312B00D088DF /* CollegesView.swift */,
+				83491772266CD85C0032DA7E /* CollegeRowView.swift */,
+				830E0562266D937F00E5D3BB /* detailCollege.swift */,
+				83491774266CDD8B0032DA7E /* CollegesListView.swift */,
 				83F669D1266B4F3E00D088DF /* CollegeImageView.swift */,
+				83F669D4266B711500D088DF /* MapCollegeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -139,6 +176,7 @@
 			files = (
 				83F669CA266B312C00D088DF /* Preview Assets.xcassets in Resources */,
 				83F669C7266B312C00D088DF /* Assets.xcassets in Resources */,
+				8349176B266C8A060032DA7E /* collegesData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +190,12 @@
 				83F669D2266B4F3E00D088DF /* CollegeImageView.swift in Sources */,
 				83F669C5266B312B00D088DF /* CollegesView.swift in Sources */,
 				83F669C3266B312B00D088DF /* CollegesApp.swift in Sources */,
+				830E0563266D937F00E5D3BB /* detailCollege.swift in Sources */,
+				83F669D5266B711500D088DF /* MapCollegeView.swift in Sources */,
+				8349176D266C9AED0032DA7E /* College.swift in Sources */,
+				83491773266CD85C0032DA7E /* CollegeRowView.swift in Sources */,
+				83491775266CDD8B0032DA7E /* CollegesListView.swift in Sources */,
+				8349176F266CB78F0032DA7E /* CollegeModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

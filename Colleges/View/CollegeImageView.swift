@@ -12,8 +12,8 @@ struct CollegeImageView: View {
         Image("humber")
             .resizable()
             .clipShape(Circle())
-            .overlay(Circle().stroke(Color.gray, lineWidth: 5))
-            .frame(width: 250, height: 250, alignment: .center)
+            .overlay(Circle().stroke(Color.black, lineWidth: 5))
+            .frame(width: 180, height: 180, alignment: .center)
             .shadow(radius: 7)
             
     }
