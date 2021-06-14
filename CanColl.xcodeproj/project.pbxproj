@@ -30,7 +30,7 @@
 		83491772266CD85C0032DA7E /* CollegeRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeRowView.swift; sourceTree = "<group>"; };
 		83491774266CDD8B0032DA7E /* CollegesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegesListView.swift; sourceTree = "<group>"; };
 		835B8E962677106E00A17E40 /* CollegeWebsiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CollegeWebsiteView.swift; path = ../../../../CollegeWebsiteView.swift; sourceTree = "<group>"; };
-		83F669BF266B312B00D088DF /* Colleges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colleges.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F669BF266B312B00D088DF /* CanColl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanColl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F669C2266B312B00D088DF /* CollegesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegesApp.swift; sourceTree = "<group>"; };
 		83F669C4266B312B00D088DF /* CollegesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegesView.swift; sourceTree = "<group>"; };
 		83F669C6266B312C00D088DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 		83F669C0266B312B00D088DF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83F669BF266B312B00D088DF /* Colleges.app */,
+				83F669BF266B312B00D088DF /* CanColl.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,9 +123,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		83F669BE266B312B00D088DF /* Colleges */ = {
+		83F669BE266B312B00D088DF /* CanColl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83F669CE266B312C00D088DF /* Build configuration list for PBXNativeTarget "Colleges" */;
+			buildConfigurationList = 83F669CE266B312C00D088DF /* Build configuration list for PBXNativeTarget "CanColl" */;
 			buildPhases = (
 				83F669BB266B312B00D088DF /* Sources */,
 				83F669BC266B312B00D088DF /* Frameworks */,
@@ -135,9 +135,9 @@
 			);
 			dependencies = (
 			);
-			name = Colleges;
+			name = CanColl;
 			productName = Colleges;
-			productReference = 83F669BF266B312B00D088DF /* Colleges.app */;
+			productReference = 83F669BF266B312B00D088DF /* CanColl.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -154,7 +154,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83F669BA266B312B00D088DF /* Build configuration list for PBXProject "Colleges" */;
+			buildConfigurationList = 83F669BA266B312B00D088DF /* Build configuration list for PBXProject "CanColl" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -167,7 +167,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				83F669BE266B312B00D088DF /* Colleges */,
+				83F669BE266B312B00D088DF /* CanColl */,
 			);
 		};
 /* End PBXProject section */
@@ -369,7 +369,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		83F669BA266B312B00D088DF /* Build configuration list for PBXProject "Colleges" */ = {
+		83F669BA266B312B00D088DF /* Build configuration list for PBXProject "CanColl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83F669CC266B312C00D088DF /* Debug */,
@@ -378,7 +378,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83F669CE266B312C00D088DF /* Build configuration list for PBXNativeTarget "Colleges" */ = {
+		83F669CE266B312C00D088DF /* Build configuration list for PBXNativeTarget "CanColl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83F669CF266B312C00D088DF /* Debug */,

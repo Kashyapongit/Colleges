@@ -37,7 +37,7 @@ struct detailCollege: View {
                         label: {
                             Text("Visit Website")
                                 .fontWeight(.light)
-                                .foregroundColor(.black)
+                                .foregroundColor(.gray)
                         })
                     
                 }
