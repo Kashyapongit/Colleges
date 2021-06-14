@@ -9,21 +9,30 @@ import SwiftUI
 import MapKit
 
 struct MapCollegeView: View {
+    var coordinates: CLLocationCoordinate2D
+    
     // @State helps modify values inside struct since struct immutable swiftui
     
-    @State private var region = MKCoordinateRegion (
-        center: CLLocationCoordinate2D(latitude: 43.73049242728258, longitude: -79.60924200051436),
-        span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2)
-    )
+    @State private var region = MKCoordinateRegion ()
     
     
     var body: some View {
         Map(coordinateRegion: $region)
+            .onAppear{
+                setRegion(coordinates)
+            }
+    }
+    
+    private func setRegion(_ coordinates: CLLocationCoordinate2D) {
+        region = MKCoordinateRegion(
+            center: coordinates,
+            span: MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)
+        )
     }
 }
 
 struct MapCollegeView_Previews: PreviewProvider {
     static var previews: some View {
-        MapCollegeView()
+        MapCollegeView(coordinates: CLLocationCoordinate2D(latitude: 43.73049242728258, longitude: -79.60924200051436))
     }
 }

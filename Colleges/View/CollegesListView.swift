@@ -12,7 +12,9 @@ struct CollegesListView: View {
         // Lists work with identifiable data hence data must conform to identifiable protocol.
         NavigationView {
             List(Colleges) {college in
-                CollegeRowView(college: college)
+                NavigationLink(destination: detailCollege(college: college)) {
+                    CollegeRowView(college: college)
+                }
             }
             .navigationTitle("Colleges")
         }
